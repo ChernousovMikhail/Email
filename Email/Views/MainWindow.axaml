@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Email.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Email.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Email"
+		Content="{Binding Content}">
+
+	<!--<Grid ColumnDefinitions="100,1.5*,4*" RowDefinitions="Auto"  Margin="10">
+
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+		<Button Width="115" Grid.Row="0" Command="{Binding SendMail}" >Send message</Button>
+		<DataGrid Name="MyDataGrid" Grid.Row="1" Width="115" Items="{Binding Email}" AutoGenerateColumns="False"  VerticalAlignment="Top">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="From" Width="*" />
+				<DataGridTextColumn Header="Subject"  Width="*" />
+			</DataGrid.Columns>
+		</DataGrid>
+	</Grid>-->
+</Window>
